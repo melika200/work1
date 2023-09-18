@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-sky-700;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+}
+.container-profile {
+  @apply flex
+    flex-col
+    w-1/4;
+}
+.profile {
+  @apply h-[220px]
+    flex
+    items-center
+    ml-3
+    mt-10;
+  border: 5px solid #fff;
+}
+.text-profile {
+  @apply bg-slate-400
+    text-[30px]
+    text-start
+    text-gray-500
+    flex
+    justify-center
+    mx-3
+    my-5
+    rounded;
+}
+/* section 2 */
+.text {
+  @apply text-[20px]
+    bg-slate-400
+    text-gray-500;
+}
+.container-text {
+  @apply flex
+    flex-col;
+}
+.text-items {
+  @apply flex
+    flex-row;
+}
+/* section3 */
+.icons {
+  @apply flex
+    flex-row;
+}
+.icon-style {
+  @apply flex
+    rounded
+    bg-slate-300;
+}
